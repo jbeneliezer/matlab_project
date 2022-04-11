@@ -36,5 +36,5 @@ varData = var(rndBinomial);
 % function.
 [muT, varT] = binostat(Na, pa);
 
-disp(mean: theoretical:  + muT +  actual:  + meanData)
-disp(var: theoretical:  + varT +  actual:  + varData)
+disp("mean: theoretical: " + muT + " actual: " + meanData)
+disp("var: theoretical: " + varT + " actual: " + varData)

@@ -30,6 +30,6 @@ varData = var(rndBeta);
 % function.
 [muT, varT] = betastat(a, b);
 
-disp(mean: theoretical:  + muT +  actual:  + meanData)
-disp(var: theoretical:  + varT +  actual:  + varData)
+disp("mean: theoretical: " + muT +  " actual: " + meanData)
+disp("var: theoretical: " + varT +  "actual: " + varData)
 

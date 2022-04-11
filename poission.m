@@ -28,6 +28,5 @@ varData = var(rndPoisson);
 % theoretical mean and variance
 [muT, varT] = poisstat(l);
 
-disp(mean: theoretical:  + muT +  actual:  + meanData)
-disp(var: theoretical:  + varT +  actual:  + varData)
-
+disp("mean: theoretical: " + muT + " actual: " + meanData)
+disp("var: theoretical: " + varT + " actual: " + varData)

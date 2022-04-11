@@ -29,7 +29,5 @@ varData = var(rndNormal);
 % theoretical mean and variance
 [muT, varT] = normstat(u, sqrt(s2));
 
-disp(mean: theoretical:  + muT +  actual:  + meanData)
-disp(var: theoretical:  + varT +  actual:  + varData)
-
-
+disp("mean: theoretical: " + muT + " actual: " + meanData)
+disp("var: theoretical: " + varT + " actual: " + varData)

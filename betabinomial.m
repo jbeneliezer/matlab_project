@@ -26,8 +26,8 @@ varData = var(rndBetaBinomial);
 
 [muT, varT] = bbinostat(N, alpha, beta);
 
-disp(mean: theoretical:  + muT +  actual:  + meanData)
-disp(var: theoretical:  + varT +  actual:  + varData)
+disp("mean: theoretical: " + muT + " actual: " + meanData)
+disp("var: theoretical: " + varT + " actual: " + varData)
 
 function y = bbinornd(n, ai, bi, sz)
     y = [];
