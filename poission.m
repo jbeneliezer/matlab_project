@@ -6,7 +6,7 @@
 % Sampling from poission distribution, and computing the mean and variance.
 %**************************************************************************
 
-NSize = 500; % number of samples
+NSize = 50000; % number of samples
 
 l = 10; % lambda (average events in time interval)
 
